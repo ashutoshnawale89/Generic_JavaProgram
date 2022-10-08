@@ -13,7 +13,7 @@ public class MaxProb {
 			System.out.println("Enter the array value ");
 			arr[i] = sc.nextInt();
 		}
-
+//    Find The Maximum Program
 		int max=arr[0];
 		for (int i=0; i < arr.length; i++) {
 			if (arr[i]> max) {
