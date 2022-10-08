@@ -12,9 +12,9 @@ public class MaxProb {
 		}
 		public static void main(String[] args) {	
 			MaxProb obj=new MaxProb();
-			Integer [] intarr= {12,14,15};
-			Double [] doublearr= {12.5,14.5,15.5};
-			String[] str= {"ghg","njj","nnnknk"};
+			Integer [] intarr= {12,14,15,154,147,145};
+			Double [] doublearr= {12.5,14.5,15.5,154.5,12.6};
+			String[] str= {"Priyanka","Megha","Nikita","Ashvini","Ashu"};
 			obj.MaxInteg(doublearr);
 			obj.MaxInteg(intarr);
 			obj.MaxInteg(str);
