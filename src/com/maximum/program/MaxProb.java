@@ -6,10 +6,8 @@ public class MaxProb {
 	public void MaxInteg() {
 		// Create the Array For comparing
 		Scanner sc =new Scanner(System.in);
-		System.out.println("Enter the array size ");
-		int size=sc.nextInt();
-		int[] arr=new int[size];
-		for (int i=0; size > i; i++) {
+		int[] arr=new int[3];
+		for (int i=0; arr.length > i; i++) {
 			System.out.println("Enter the array value ");
 			arr[i] = sc.nextInt();
 		}
